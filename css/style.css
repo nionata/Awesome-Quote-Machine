@@ -1,10 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway|Roboto');
 
 body {
-  background-color: lightblue;
   padding: 0;
   margin: 0;
-  /*background-image: url("https://s-media-cache-ak0.pinimg.com/originals/e0/66/f3/e066f3d17d3cbb3e5a334f2ccb7594cb.jpg");*/
 }
 
 h1 {
@@ -34,6 +32,7 @@ h3 {
 #footer a {
   color: white;
   text-align: center;
+    margin: 10px;
 }
 
 .media {
