@@ -16,10 +16,25 @@ h3 {
 #top {
   text-align: center;
   color: white;
-  margin: 5%;
-  padding: 5%;
+  padding: 10%;
   background-color: #455A64;
-  font-size: 150%;
+  font-size: 100%;
+}
+
+#quote {
+    background-color: #1abc9c;
+    padding: 5%;
+    color: white;
+}
+
+#quote-field {
+    background-color: #16a085;
+    padding: 5%;
+    text-align: center;
+}
+
+#button-content {
+    text-align: right;
 }
 
 #footer {
