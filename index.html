@@ -2,30 +2,33 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>Super Awesome Quote Machine</title>
+  <title>Inspirational Quote Machine</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
   <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
   <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css'>
   <link rel="stylesheet" href="css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="js/index.js"></script>
 </head>
 
 <body>
   <div id="top" class="container-fluid">
-    <h1>Super Awesome Quote Machine</h1>
-    <h3>Get Started Below!</h3>
+    <h1>Inspirational Quote Machine</h1>
+    <h3>Get pumped to get moving!</h3>
   </div>
 
   <div id="quote" class="container-fluid">
       <div id="quote-field">
           <h3 id="quote-content">
               <i class="fa fa-quote-left" aria-hidden="true"></i>
-              <span id="quote-text">If I can do it, so can you.</span>
+              <span id="quote-text"></span>
               <i class="fa fa-quote-right" aria-hidden="true"></i>
-              <span id="quote-author"> - Ben Dover</span>
+              <span> - </span>
+              <span id="quote-author"></span>
           </h3>
           <div id="button-content">
-              <button class="btn btn-primary quote-btn"><i class="fa fa-twitter" aria-hidden="true"></i></button>
-              <button class="btn btn-primary quote-btn">Hit Me!</button>
+              <a class="twitter-share-button" id="new-tweet-btn" data="large" target="_blank"><button class="btn btn-primary quote-btn"><i class="fa fa-twitter" aria-hidden="true"></i></button></a>
+              <button class="btn btn-primary quote-btn" id="new-quote-btn">Hit Me!</button>
           </div>
       </div>
   </div>
