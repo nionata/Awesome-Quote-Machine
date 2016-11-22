@@ -10,18 +10,22 @@
 </head>
 
 <body>
-  <div id="top">
+  <div id="top" class="container-fluid">
     <h1>Super Awesome Quote Machine</h1>
     <h3>Get Started Below!</h3>
   </div>
 
-  <div id="quote">
+  <div id="quote" class="container-fluid">
       <div id="quote-field">
-          <blockquote id="quote-content">
-             If I can do it, so can you. - Ben Dover
-          </blockquote>
+          <h3 id="quote-content">
+              <i class="fa fa-quote-left" aria-hidden="true"></i>
+              <span id="quote-text">If I can do it, so can you.</span>
+              <i class="fa fa-quote-right" aria-hidden="true"></i>
+              <span id="quote-author"> - Ben Dover</span>
+          </h3>
           <div id="button-content">
-             <buttom class="btn btn-primary" id="quote-btn">Hit Me!</buttom>
+              <button class="btn btn-primary quote-btn"><i class="fa fa-twitter" aria-hidden="true"></i></button>
+              <button class="btn btn-primary quote-btn">Hit Me!</button>
           </div>
       </div>
   </div>

@@ -34,7 +34,16 @@ h3 {
 }
 
 #button-content {
-    text-align: right;
+    margin-top: 5%;
+}
+
+.quote-btn {
+    background-color: white;
+    color: black;
+}
+
+.quote-btn:hover {
+    background-color: #455A64;
 }
 
 #footer {
